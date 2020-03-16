@@ -1,5 +1,5 @@
 <?php
-	require_once("model/crud.class.php");
+	require_once("crud2/model/crud.class.php");
 	
 	$id_usuario= "";
 	$nome="";
