@@ -1,0 +1,274 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../font/Open_Sans/OpenSans-Regular.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../font/Open_Sans/OpenSans-Light.ttf");
+	font-size: 1em;
+}
+
+header {
+	width: 100%;
+	height: 150px;
+	background-color: rgba(255, 0, 0, .8);
+	z-index: 2;
+	position: relative;
+}
+
+header .container {
+	position: relative;
+}
+
+#menu {
+	margin: -80px 0;
+}
+
+#menu li {
+	display: inline-block;
+	font-family: "OpenSans";
+}
+
+#menu li.search {
+	width: 182px;
+}
+#menu li.search input {
+	background-color: #800000;
+	color: #fff;
+	border: none;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 8px;
+}
+#menu li.search ::-webkit-input-placeholder {
+	color: #fff;
+}
+#menu li.search button {
+	background:none;
+	border: none;
+	position: absolute;
+	top: 7px;
+	right: 3px;
+}
+#menu li.search button i {
+	font-size: 14px;
+	color: rgba(255, 255, 255, .5);
+}
+#menu li a {
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 25px;
+	font-weight: bold;
+}
+#menu li.search .input-group {
+	top: 8px;
+}
+#form-group .Sabores {
+	top: 20px;
+	width: 30px;
+	left: 50px;
+} 
+/*#banner {
+	width: 100%;
+	height: 728px;
+	position: relative;
+	background: url("../img/banner4.jpg") no-repeat;
+	background-position: 0px -100px;
+	top: -60px; 
+	background-size: cover;
+	text-align: center;
+}
+#banner h1 {
+	color: #006400;
+	top: 300px;
+	position: relative;
+	font-size: 62px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
+	font-family: 'OpenSans-Light';
+	margin-left: 50px;
+}
+#banner h1 small{
+	font-size: 50px;
+	display: block;
+	color: #006400;
+	font-family: 'OpenSans';
+	font-weight: bold;
+}
+*/
+
+
+#news {
+	position: relative;
+	top: -100px;
+}
+
+#news h2 {
+	color: #5e2799;
+	font-family: 'OpenSans-Light';
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+#news hr {
+	border: #fde192 solid 2px;
+	width: 200px;
+	margin: 0 auto; 
+}
+#news .thumbnails {
+	margin-top: 40px;
+} 
+
+.Camada_1 {
+  background-image: url("Camada 1.png");
+  position: absolute;
+  left: 12px;
+  top: -2px;
+  width: 265px;
+  height: 264px;
+  z-index: 2;
+}
+h5 {
+	left: 10px;
+	top: 2px;
+	width: 85px;
+	height: 70px;
+	text-align: center;
+	text-align: left;
+	font-weight: bold;
+
+	
+}
+footer {
+	margin-top: 30px;
+}
+footer .row {
+	width: 100%;
+	margin-left: 0px; /* A margin-left de 0px ajusta o
+						rodapé no seu posicionamento. */
+}
+footer .row p {
+	line-height: 55px; /* 55 ou 60 */
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+footer .row-cinza-escuro {
+	height: 60px;
+	background-color: #11171D;
+	border-top: #242D37 1px solid;
+	font-weight: bold;
+}
+footer .pull-left {
+	font-family: 'OpenSans';
+	font-size: 14px;
+	color:  #633291;
+	font-weight: bold;
+}
+footer .text-roxo {
+	color: #633291;
+	font-family: 'OpenSans';
+	font-weight: bold;
+	font-size: 14px;
+}
+footer .pasta-Pizza {
+	margin-top: 3px;
+}
+
+footer .col-popular-post,
+footer .col-links,
+footer .col-get-in-touch {
+	margin-top: 60px; /*   */
+	margin-left: 150px;
+	 z-index: 2;
+	 font-weight: bold;
+}
+footer .row-cols h4 {
+	font-family: 'OpenSans';
+	font-size: 16px;
+	color: black;
+	padding-bottom: 17px;
+	border-bottom: #242D37 1px solid;
+}
+footer .row-cols h5 {
+	color: black;
+	font-family: 'Arial';
+	font-size: 14px;
+	margin-bottom: 0;
+}
+footer .row-cols time {
+	color: black;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+
+footer .col-get-in-touch address {
+	color: black;
+	font-family: Arial;
+	font-size: 14px;
+	margin-bottom: 6px;
+}
+
+
+footer .col-get-in-touch i {
+	color: #9B9B9B;
+	font-size: 20px;
+	margin: 0 6px;
+}
+footer .col-get-in-touch a {
+	color: black;
+}
+footer .col-get-in-touch p {
+	line-height: 20px;
+}
+footer .list-socials {
+	margin-top: 4px;
+}
+footer .list-socials li {
+	display: inline-block;
+	margin-right: 8px;
+}
+footer .list-socials a {
+	display: block;
+	border: black 1px solid;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	border-radius: 14px;
+	text-align: center;	
+}
+footer .list-socials i {
+	font-size: 16px;
+	margin: 7px auto;
+}
+/*formulario*/
+
+.formulario{
+	margin-top: 100px;
+	margin-left: 50px;
+}
+
+.sabores{
+	margin-bottom: 15px;
+	font-size: 15px;
+}
+.tamanho{
+	margin-bottom: 15px;
+	font-size: 15px;
+}
+
+/*rodapé*/
+.massa-pizza{
+	margin-top: 200px;
+	margin-left: 50px;
+	align-self: center;
+	padding-left: 0;
+}
+/*botão de pedido*/
+.button {
+	font-size: 16px;
+	position: relative;
+	margin-left: 50px;
+}
