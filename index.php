@@ -12,7 +12,6 @@
 	<div class="container">
 			<img id="logotipo" src="img/logotipo.PNG" alt="Logotipo">	
 			</div>
-
 	<div class="container">
 				<div class="row">
 					<nav id="menu" class="pull-right">
