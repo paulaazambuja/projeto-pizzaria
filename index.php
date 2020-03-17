@@ -1,4 +1,5 @@
 <?php
+// class crud
 require_once("model/crud.class.php");
 
 if(isset($_POST['cadastrar'])) {
