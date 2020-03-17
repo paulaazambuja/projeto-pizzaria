@@ -3,7 +3,6 @@
 	$id_usuario= "";
 	$nome="";
 	$email="";
-	$senha="";
 
 	if(isset($_GET['id_usuario'])) {
 			$usuario= new Crud("usuarios");
